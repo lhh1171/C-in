@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/extr.dir/main.c.o CMakeFiles/extr.dir/a.c.o  -o extr 
