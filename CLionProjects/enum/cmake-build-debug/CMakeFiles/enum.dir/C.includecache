@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lqc/CLionProjects/enum/main.c
+stdio.h
+-
+string.h
+/home/lqc/CLionProjects/enum/string.h
+stdbool.h
+/home/lqc/CLionProjects/enum/stdbool.h
+
