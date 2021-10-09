@@ -46,7 +46,7 @@ void show_bstr(const char * str){
 int invert_end(int num,int bits){
     int mask=0;
     int bitval=1;
-    while (bits-->){
+    while (bits-->0){
         mask|=bitval;
         bitval<<=1;
     }
