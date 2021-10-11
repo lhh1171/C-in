@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lqc/CLionProjects/dualview/main.c
+stdio.h
+-
+stdbool.h
+/home/lqc/CLionProjects/dualview/stdbool.h
+limits.h
+/home/lqc/CLionProjects/dualview/limits.h
+

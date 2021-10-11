@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/dualview.dir/main.c.o  -o dualview 
