@@ -21,7 +21,7 @@ int main() {
     int XName(1)=14;//相当于x1=14
     int XName(2)=20;//相当于x2=20
     int x3=20;
-    Print_XN(1);
+    Print_XN(1); //相当于打印x1
     Print_XN(2);
     Print_XN(3);
     return 0;
