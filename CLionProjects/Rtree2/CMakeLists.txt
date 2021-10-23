@@ -3,4 +3,4 @@ project(Rtree2)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Rtree2 main.cpp)
+add_executable(Rtree2 main.cpp Rtree.cpp Rtree.h)

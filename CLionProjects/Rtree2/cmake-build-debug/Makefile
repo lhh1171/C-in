@@ -123,6 +123,33 @@ Rtree2/fast:
 	$(MAKE) -f CMakeFiles/Rtree2.dir/build.make CMakeFiles/Rtree2.dir/build
 .PHONY : Rtree2/fast
 
+Rtree.o: Rtree.cpp.o
+
+.PHONY : Rtree.o
+
+# target to build an object file
+Rtree.cpp.o:
+	$(MAKE) -f CMakeFiles/Rtree2.dir/build.make CMakeFiles/Rtree2.dir/Rtree.cpp.o
+.PHONY : Rtree.cpp.o
+
+Rtree.i: Rtree.cpp.i
+
+.PHONY : Rtree.i
+
+# target to preprocess a source file
+Rtree.cpp.i:
+	$(MAKE) -f CMakeFiles/Rtree2.dir/build.make CMakeFiles/Rtree2.dir/Rtree.cpp.i
+.PHONY : Rtree.cpp.i
+
+Rtree.s: Rtree.cpp.s
+
+.PHONY : Rtree.s
+
+# target to generate assembly for a file
+Rtree.cpp.s:
+	$(MAKE) -f CMakeFiles/Rtree2.dir/build.make CMakeFiles/Rtree2.dir/Rtree.cpp.s
+.PHONY : Rtree.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Rtree2"
+	@echo "... Rtree.o"
+	@echo "... Rtree.i"
+	@echo "... Rtree.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

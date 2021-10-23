@@ -5,4 +5,11 @@
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
+  <component name="RunManager">
+    <configuration name="Rtree2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Rtree2" TARGET_NAME="Rtree2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Rtree2" RUN_TARGET_NAME="Rtree2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
 </project>

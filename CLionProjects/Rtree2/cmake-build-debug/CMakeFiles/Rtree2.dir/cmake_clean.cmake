@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Rtree2.dir/Rtree.cpp.o"
   "CMakeFiles/Rtree2.dir/main.cpp.o"
   "Rtree2"
   "Rtree2.pdb"
