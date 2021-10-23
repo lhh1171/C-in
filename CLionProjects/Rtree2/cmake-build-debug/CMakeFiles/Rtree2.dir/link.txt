@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Rtree2.dir/main.cpp.o  -o Rtree2 
