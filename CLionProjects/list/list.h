@@ -72,8 +72,10 @@ List *insert_node( List *h, int pos, int value )
             }
             else
             {
-                for ( i = 1; i < pos-1; ++i )//找第 POS-1 个结点
+                for ( i = 1; i < pos-1; ++i ){
+                    //找第 POS-1 个结点
                     s = s->next;
+                }
                 p->next = s->next;
                 s->next = p;
             }
@@ -90,12 +92,14 @@ List *delete_node( List *h, int value )
     s = h;
 
     //找删除结点
-
+   while (value==s->data){
+       p=s;
+       s=s->next;
+    }
+    s=p;
+    s->next=s->next->next;
+    free(p);
     //找到了要删除的结点,删除
-    if ( value==s->data){
-
-    }else printf("Can't find the node. Please check the enter!\n");
-
     return(h);
 }
 
