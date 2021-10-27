@@ -1,0 +1,1 @@
+/usr/bin/c++   -pthread -g   CMakeFiles/Thread2.dir/main.cpp.o  -o Thread2  -lboost_thread -lboost_system -lrt 
