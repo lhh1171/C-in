@@ -1,8 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Thread2" targetName="Thread2" />
+    </generated>
+  </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cd0a0e56-1929-4d28-8fbb-120945004072" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="205qUzlmVhEnIMdFIEKPYGWeiC6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="/projects/提交中/cuda-wy" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Thread2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Thread2" TARGET_NAME="Thread2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Thread2" RUN_TARGET_NAME="Thread2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cd0a0e56-1929-4d28-8fbb-120945004072" name="Default Changelist" comment="" />
+      <created>1635344815623</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635344815623</updated>
+      <workItem from="1635344816978" duration="1308000" />
+      <workItem from="1635399323065" duration="81000" />
+      <workItem from="1635399814624" duration="2797000" />
+      <workItem from="1635416064140" duration="14000" />
+      <workItem from="1635470480038" duration="38000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1218" y="285" width="424" height="484" key="FileChooserDialogImpl" timestamp="1635416076825">
+      <screen x="0" y="27" width="1920" height="1000" />
+    </state>
+    <state x="1218" y="285" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1000@0.27.1920.1000" timestamp="1635416076825" />
+    <state width="1866" height="256" key="GridCell.Tab.0.bottom" timestamp="1635346452928">
+      <screen x="0" y="27" width="1920" height="1000" />
+    </state>
+    <state width="1866" height="256" key="GridCell.Tab.0.bottom/0.27.1920.1000@0.27.1920.1000" timestamp="1635346452928" />
+    <state width="1866" height="256" key="GridCell.Tab.0.center" timestamp="1635346452928">
+      <screen x="0" y="27" width="1920" height="1000" />
+    </state>
+    <state width="1866" height="256" key="GridCell.Tab.0.center/0.27.1920.1000@0.27.1920.1000" timestamp="1635346452928" />
+    <state width="1866" height="256" key="GridCell.Tab.0.left" timestamp="1635346452927">
+      <screen x="0" y="27" width="1920" height="1000" />
+    </state>
+    <state width="1866" height="256" key="GridCell.Tab.0.left/0.27.1920.1000@0.27.1920.1000" timestamp="1635346452927" />
+    <state width="1866" height="256" key="GridCell.Tab.0.right" timestamp="1635346452928">
+      <screen x="0" y="27" width="1920" height="1000" />
+    </state>
+    <state width="1866" height="256" key="GridCell.Tab.0.right/0.27.1920.1000@0.27.1920.1000" timestamp="1635346452928" />
   </component>
 </project>
