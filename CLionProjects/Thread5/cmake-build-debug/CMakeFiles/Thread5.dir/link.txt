@@ -1,0 +1,1 @@
+/usr/bin/c++   -pthread -g   CMakeFiles/Thread5.dir/main.cpp.o  -o Thread5  -lboost_thread -lboost_system -lrt 
