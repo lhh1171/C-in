@@ -36,6 +36,17 @@ accumulate()具有附加参数的函数语法：
 
     accumulate(start, end, initial_sum, func);
 在这里，func是要执行的附加操作。*/
+
+
+/*advance() 函数用于将迭代器前进（或者后退）指定长度的距离，其语法格式如下：
+template <class InputIterator, class Distance>
+    void advance (InputIterator& it, Distance n);
+
+其中 it 指的是目标迭代器，n 通常为一个整数。
+
+需要注意的是，如果 it 为输入迭代器或者前向迭代器，则 n 必须为一个正数，即表示将 it 右移（前进） n 个位置；
+反之，如果 it 为双向迭代器或者随机访问迭代器，则 n 为正数时表示将 it 右移（前进） n 个位置，n 为负数时表示将 it 左移（后退） n 个位置。*/
+
 class ss{
 
 };
@@ -59,6 +70,7 @@ T parallel_accumulate(Iterator first,Iterator last,T init){
     }
     accmulate_block<Iterator,T>()(block_start,last,results[num_threads-1]);
     std::for_each(threads.begin(),threads.end(),std::mem_fn(&std::thread::join));
+
     return std::accumulate(results.begin(),results.end(),init);
 }
 /*distance( )函数
@@ -71,6 +83,7 @@ distance (InputIterator first, InputIterator last);
 
 作用是：返回两个迭代器之间的距离，也可以理解为计算两个元素 first 和 last 之间的元素数。
 */
+
 int main() {
 //
 //    //创建一个 forward_list 容器
@@ -78,12 +91,21 @@ int main() {
 //    //it为前向迭代器，其指向 mylist 容器中第一个元素
 //    std::forward_list<int>::iterator it = mylist.begin();
     using namespace std;
+
     vector<int> vt(1,2);
-    int a=0;
-    vector <int>::iterator iter_start=vt.begin();//起始地址
+    int a=3;
+    for (int i = 0; i <100 ; ++i) {
+        vt.insert(vt.begin(),a);
+    }
+
+    //起始地址
+    vector <int>::iterator iter_start=vt.begin();
     vector <int>::iterator iter_end=vt.end();//结束地址
-    parallel_accumulate(iter_start,iter_end,a);
-    cout<<a<<endl;
+    int x=5;
+    int g=parallel_accumulate(iter_start,iter_end,x);
+//    int g=std::accumulate(iter_start,iter_end,x);
+    /*3*100+5+2;*/
+    cout<<g<<endl;
     return 0;
 }
 /*std :: accumulate
