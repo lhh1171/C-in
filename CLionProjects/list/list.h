@@ -90,15 +90,16 @@ List *delete_node( List *h, int value )
 {
     List *s,*p;
     s = h;
-
     //找删除结点
-   while (value==s->data){
-       p=s;
+   while (value!=s->next->data){
        s=s->next;
     }
-    s=p;
-    s->next=s->next->next;
-    free(p);
+    p=s;
+    printf("%d\n",p->data);
+    s=p->next;
+    p->next=p->next->next;
+    printf("%d\n",s->data);
+    free(s);
     //找到了要删除的结点,删除
     return(h);
 }
